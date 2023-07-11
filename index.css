@@ -52,3 +52,24 @@ img{
     text-decoration: none;
     color: black;
 }
+
+
+#main-prt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+}
+
+#l-prt{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+#l-prt h1{
+    font-size: 50px;
+}
+
+#l-prt p{
+    font-size: 25px;
+}
