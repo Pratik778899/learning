@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: pp monument;
 }
 
 #nav{
@@ -8,6 +9,7 @@
     align-items: center;
     justify-content: space-between;
     background-color:transparent;
+    
 }
 #nav-img{
     display: flex;
@@ -15,6 +17,7 @@
     align-items: center;
     margin-left: 70px;
     width: 200px;
+    text-transform: uppercase;
 }
 img{
     width: 100%;
@@ -26,7 +29,8 @@ img{
 
 #nav-mid ul{
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    margin-left: 28%;
     list-style-type: none;
 }
 #nav-mid ul li a{
@@ -37,20 +41,23 @@ img{
 
 }
 #nav-right{
-    margin-right: 50px;
+    margin-right: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 160px;
-    height: 35px;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    border: 3px solid black;
+    font-weight: bold;
+    /* width: 160px;
+    height: 35px; */
+    /* background-color: whitesmoke; */
+    /* border-radius: 10px; */
+    /* border: 3px solid black; */
 }
 #nav-right a{
+    padding: 0px 10px;
     text-align: center;
     text-decoration: none;
     color: black;
+    white-space: nowrap;
 }
 
 
@@ -65,11 +72,22 @@ img{
     display: flex;
     flex-direction: column;
    justify-content: center;
+   margin-left: 70px;
+   text-transform: capitalize;
 }
 #l-prt h1{
-    font-size: 50px;
+    font-size: 45px;
+    text-transform: uppercase;
+
 }
 
 #l-prt p{
     font-size: 25px;
+    width: 80%;
+}
+
+#r-prt{
+    display: flex;
+    margin-right: 50px; 
+    /* height: 0px; */
 }

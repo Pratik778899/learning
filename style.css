@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #nav{
@@ -9,12 +12,13 @@
     justify-content: space-between;
     background-color:transparent;
 }
-#nav-img{
+#nav-img {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 70px;
     width: 200px;
+    font-family: pp monument;
 }
 img{
     width: 100%;
