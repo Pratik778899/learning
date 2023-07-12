@@ -1,17 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: pp monument;
 }
 
-#nav{
+#nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:transparent;
-    
+    background-color: transparent;
+
 }
-#nav-img{
+
+#nav-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,28 +20,31 @@
     width: 200px;
     text-transform: uppercase;
 }
-img{
+
+img {
     width: 100%;
 }
 
-#nav-mid{
+#nav-mid {
     width: 950px;
 }
 
-#nav-mid ul{
+#nav-mid ul {
     display: flex;
     /* justify-content: flex-end; */
     margin-left: 28%;
     list-style-type: none;
 }
-#nav-mid ul li a{
+
+#nav-mid ul li a {
     text-decoration: none;
     color: black;
     font-size: 18px;
     margin: 20px;
 
 }
-#nav-right{
+
+#nav-right {
     margin-right: 100px;
     display: flex;
     justify-content: center;
@@ -52,7 +56,8 @@ img{
     /* border-radius: 10px; */
     /* border: 3px solid black; */
 }
-#nav-right a{
+
+#nav-right a {
     padding: 0px 10px;
     text-align: center;
     text-decoration: none;
@@ -61,33 +66,99 @@ img{
 }
 
 
-#main-prt{
+#main-prt {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:80vh;
+    height: 80vh;
 }
 
-#l-prt{
+#l-prt {
     display: flex;
     flex-direction: column;
-   justify-content: center;
-   margin-left: 70px;
-   text-transform: capitalize;
+    justify-content: center;
+    margin-left: 70px;
+    text-transform: capitalize;
 }
-#l-prt h1{
+
+#l-prt h1 {
     font-size: 45px;
     text-transform: uppercase;
 
 }
 
-#l-prt p{
+#l-prt p {
     font-size: 25px;
     width: 80%;
 }
 
-#r-prt{
+#r-prt {
     display: flex;
-    margin-right: 50px; 
+    margin-right: 50px;
     /* height: 0px; */
+}
+
+#main2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#main2 img{
+    height: 400px;
+    width: auto;
+    display: flex;
+}
+
+#w1 img{
+    margin-left: 40px;
+}
+#w2 img{
+    margin-left: 70px;
+}
+
+
+
+#w1 h3 {
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    margin-left: 15px;
+}
+
+#w1 h2 {
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 15px;
+}
+
+#w2 h3 {
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    margin-left: 25px;
+}
+
+#w2 h2 {
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 80px;
+}
+
+#w3 h3 {
+    text-align: center;
+    font-size: 15px;
+    width: 90%;
+}
+
+#w3 h2 {
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin-top: 2%;
 }
